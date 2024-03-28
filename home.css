@@ -1,0 +1,787 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+header{
+    height: 850px;
+    width: 100%;
+    border: 2px solid;
+}
+header video{
+    width: 100%;
+}
+header .img1{
+    position: absolute;
+    top: -50px;
+    left: 160px;
+    height: 900px;
+    opacity: 0.5;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    top: 0px;
+}
+nav img{
+    height: 35px;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.nav-1{
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin-left: 40px;
+    padding-bottom: 10px;
+}
+.nav-1:hover{
+    border-bottom: 2px solid #EC3737;
+}
+nav i{
+    font-size: 13px;
+}
+.nav-2 div{
+    height: 35px;
+    width: 35px;
+    background-color: #EC3737;
+    margin-top: -30px;
+    margin-left: 1110px;
+    border-radius: 50px;
+    padding-top: 9px;
+    padding-left: 9px;
+    color: white;
+    transition: 1s;
+}
+.nav-2 div:hover{
+    background-color: white;
+    color: #EC3737;
+}
+.nav-2 div i{
+    font-size: 16px;
+}
+.nav-3 button{
+    padding: 14px 20px;
+    background-color: #EC3737;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    border: 1px solid #EC3737;
+    font-size: 14px;
+    margin-left: 1190px;
+    position: relative;
+    top: -45px;
+    transition: 1s;
+}
+.nav-3 button:hover{
+    background-color: transparent;
+    color: white;
+}
+.d1{
+    height: 500px;
+    width: 50%;
+    margin-left: 150px;
+    position: absolute;
+    top: 200px;
+}
+.d1 span{
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+.d1 h1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 56px;
+}
+.d1 p{
+    color: #ffffffc2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+}
+.d1 button{
+    padding: 14px 20px;
+    background-color: #EC3737;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    border: 1px solid #EC3737;
+    font-size: 14px;
+    transition: 1s;
+    margin-top: 40px;
+}
+.d1 button:hover{
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+.div-1{
+    transition: 1s;
+    text-transform: uppercase;
+    margin-left: 50px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #EC3737;
+}
+.div-1:hover{
+    color: #ffffffc2;
+    position: relative;
+    top: -5px;
+    cursor: pointer;
+}
+.d2{
+    height: 450px;
+    width: 83%;
+    margin-left: 150px;
+    display: flex;
+    position: relative;
+    top: -120px;
+}
+.d3{
+    height: 100%;
+    width: 50%;
+    background-color: #15171E;
+    padding: 5%;
+}
+.d4{
+    height: auto;
+    width: 100%;
+}
+.d4 h2{
+    font-size: 35px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+.d4 p{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-top: 40px;
+    font-weight: bold;
+}
+.d5{
+    display: flex;
+}
+.d6{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: white;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.d7{
+    height: auto;
+    width:auto;
+    margin-left: 20px;
+}
+.d7 h2{
+    font-size: 20px;
+    margin-top: -0px;
+}
+.d7 p{
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight:500 ;
+}
+.d8{
+    height: 800px;
+    width: 83%;
+    margin-left: 150px;
+}
+.d9{
+    height: 200px;
+    width: 80%;
+    margin-left: 120px;
+    display: flex;
+}
+.d10{
+    height: 100%;
+    width: 50%;
+}
+.d10 span{
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+.d10 h2{
+    font-size: 32px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+.d10 p{
+    color: #ffffffc2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 100px;
+    font-size: 16px;
+}
+.d11{
+    height: 430px;
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+}
+.d13{
+    height: 100%;
+    width: 43%;
+    margin-left: 2%;
+}
+.d12{
+    height: 100%;
+    width: 55%;
+}
+.d12 img{
+    height: 100%;
+    width: 100%;
+}
+.d13 img{
+    height: 100%;
+    width: 100%;
+}
+.d14{
+    height: 1200px;
+    width: 83%;
+    margin-left: 150px;
+}
+.d15{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+}
+.d16{
+    height: 100%;
+    width: 31%;
+    margin-left: 3%;
+    background-image:linear-gradient(rgba(0,0, 0, 0.5),rgba(0,0, 0, 0.5)) , url(https://www.xable.oxacor.com/wp-content/uploads/brainstorming-business-vision-teamwork-casual-concept-1024x1024.jpg);
+    background-size: 100% 100%;
+}
+.d17{
+    height: 100%;
+    width: 31%;
+    margin-left: 3%;
+    background-image:linear-gradient(rgba(0,0, 0, 0.5),rgba(0,0, 0, 0.5)) , url(https://www.xable.oxacor.com/wp-content/uploads/two-business-people-meeting-to-analyze-investment-and-marketing-on-the-desk-in-the-office--1024x682.jpg);
+    background-size: 100% 100%;
+}.d18{
+    height: 100%;
+    width: 31%;
+    margin-left: 3%;
+    background-image:linear-gradient(rgba(0,0, 0, 0.5),rgba(0,0, 0, 0.5)) , url(https://www.xable.oxacor.com/wp-content/uploads/digital-artist-sketching-blueprint-and-using-computer-with-digital-graphics-tablet--1024x682.jpg);
+    background-size: 100% 100%;
+}.d19{
+    height: 100%;
+    width: 31%;
+    margin-left: 3%;
+    background-image:linear-gradient(rgba(0,0, 0, 0.5),rgba(0,0, 0, 0.5)) , url(https://www.xable.oxacor.com/wp-content/uploads/asian-business-people-meeting-brainstorming-ideas-about-creative-web-design-work-together-in-office--1024x682.jpg);
+    background-size: 100% 100%;
+}.d20{
+    height: 100%;
+    width: 31%;
+    margin-left: 3%;
+    background-image:linear-gradient(rgba(0,0, 0, 0.5),rgba(0,0, 0, 0.5)) , url(https://www.xable.oxacor.com/wp-content/uploads/social-media-addiction-e1689166360344-1024x683.jpg);
+    background-size: 100% 100%;
+}.d21{
+    height: 100%;
+    width: 31%;
+    margin-left: 3%;
+    background-image:linear-gradient(rgba(0,0, 0, 0.5),rgba(0,0, 0, 0.5)) , url(https://www.xable.oxacor.com/wp-content/uploads/architects-working-with-computer-and-building-plans-in-modern-office-1024x684.jpg);
+    background-size: 100% 100%;
+}
+.d22{
+    height: 100%;
+    width: 100%;
+    background-color: #EC3737;
+    transition: 2s;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+.d22:hover{
+    background-color: transparent;
+}
+.d23{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    transition: 2s;
+    padding-top: 50px;
+    padding-left: 40px;
+
+}
+
+.d23:hover{
+    background-color: #EC3737;
+}
+.d22 img{
+    height: 65.31px;
+    width: 65.31px;
+}
+.d22 h3{
+    font-size: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.d22 p{
+    font-size: 15px;
+    color: #ffffffc2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.d22 span{
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;color: white;
+    margin-left: -120px;
+
+}
+.d23 img{
+    height: 65.31px;
+    width: 65.31px;
+}
+.d23 h3{
+    font-size: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.d23 p{
+    font-size: 15px;
+    color: #ffffffc2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.d23 span{
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;color: white;
+    margin-left: -120px;
+}
+.d14 button{
+    padding: 14px 20px;
+    background-color: #EC3737;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    border: 1px solid #EC3737;
+    font-size: 14px;
+    transition: 1s;
+    margin-top: 40px;
+}
+.d14 button:hover{
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+.a-2 div{
+    height: 35px;
+    width: 35px;
+    background-color: #EC3737;
+    border-radius: 50px;
+    padding-top: 9px;
+    padding-left: 0px;
+    color: white;
+    transition: 1s;
+    margin-top: -40px;
+    margin-left: 80px;
+}
+.a-2 div:hover{
+    background-color: white;
+    color: #EC3737;
+}
+.a-2 div i{
+    font-size: 16px;
+}
+.d14 .a-3{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    position: relative;
+    top: -37px;
+    left: 120px;
+}
+.d14 span{
+    color: #ffffff94;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: -32px;
+    left: 120px;
+
+}
+.d24{
+    height: 700px;
+    width: 83%;
+    margin-left: 150px;
+    margin-top: 100px;
+    display: flex;
+}
+.d25{
+    height: 100%;
+    width: 45%;
+    padding-top: 50px;
+
+}
+.d26{
+    height: 100%;
+    width: 55%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.d26 img{
+    height: 120%;
+    margin-left: -300px;
+    margin-top: -50px;
+}
+.d25 span{
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+.d25 h2{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.d25 p{
+    font-size: 15px;
+    color: #ffffffc2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+.d27{
+    height: 100px;
+    width: 180px;
+    background-color: #15171E;
+    border-left: 4px solid #EC3737;
+    position: relative;
+    top: -40px;
+    left: 520px;
+    padding: 20px 40px;
+}
+.d27 h2{
+    font-size: 34px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.d27 p{
+    font-size: 12px;
+    color: #ffffffc2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.d28{
+    height: 500px;
+    width: 83%;
+    margin-left: 150px;
+    border-top: 4px solid #EC3737;
+    margin-top: 100px;
+    background-image:linear-gradient(rgba(0,0, 0, 0.5),rgba(0,0, 0, 0.5)) ,url(https://www.xable.oxacor.com/wp-content/uploads/group-of-people-brainstorming-sitting-on-the-floor.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 200px;
+}
+.d28 h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 34px;
+    color: white;
+    
+}
+.d28 a div{
+    color: white;
+    background-color: #EC3737;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    padding-top: 12px;
+    transition: 1s;
+    margin-top: 20px;
+}
+.d28 a div i{
+    font-size: 25px;
+}
+.d28 a div:hover{
+    transform: scale(1.1);
+    color: #EC3737;
+    background-color: white ;
+}
+.d29{
+    height: 900px;
+    width: 83%;
+    margin-left: 150px;
+    margin-top: 150px;
+}
+.d30{
+    height: 600px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+}
+.d31{
+    height: 100%;
+    width: 49%;
+    border: 1px solid #a9a9a9c2;
+    background-image:linear-gradient(0deg, #000000 20%, transparent 82%), url(https://www.xable.oxacor.com/wp-content/uploads/330-ml-black-coffee-paper-cup-with-blurred-background-3d-rendering-illustration-682x1024.jpg);
+    background-size:100% 120%;
+    transition: 1s;
+
+}
+.d31:hover{
+    background-image: linear-gradient(0deg, #ec3737 -10%, transparent 52%),url(https://www.xable.oxacor.com/wp-content/uploads/330-ml-black-coffee-paper-cup-with-blurred-background-3d-rendering-illustration-682x1024.jpg);
+    border: 1px solid #EC3737;
+}
+.d32{
+    height: 100%;
+    width: 49%;
+    margin-left: 2%;
+}
+.d33{
+    height: 49%;
+    width: 100%;
+    display: flex;
+}
+.d34{
+    height: 100%;
+    width: 49%;
+
+    border: 1px solid #a9a9a9c2;
+    background-image:linear-gradient(0deg, #000000 20%, transparent 82%), url(https://www.xable.oxacor.com/wp-content/uploads/film-reels-in-containers-called-pizzas-1024x649.jpg);
+    background-size:100% 120%;
+    transition: 1s;
+
+    
+}
+.d34:hover{
+    background-image: linear-gradient(0deg, #ec3737 -10%, transparent 52%),url(https://www.xable.oxacor.com/wp-content/uploads/film-reels-in-containers-called-pizzas-1024x649.jpg);
+    border: 1px solid #EC3737;
+}
+
+.d35{
+    height: 100%;
+    width: 49%;
+    margin-left: 2%;
+    border: 1px solid #a9a9a9c2;
+    background-image:linear-gradient(0deg, #000000 20%, transparent 82%), url(https://www.xable.oxacor.com/wp-content/uploads/businessman-using-mobile-app-for-trading-and-investing-online-682x1024.jpg);
+    background-size:100% 130%;
+    transition: 1s;
+
+    
+}
+.d35:hover{
+    background-image: linear-gradient(0deg, #ec3737 -10%, transparent 52%),url(https://www.xable.oxacor.com/wp-content/uploads/businessman-using-mobile-app-for-trading-and-investing-online-682x1024.jpg);
+    border: 1px solid #EC3737;
+}
+
+.d36{
+    height: 100%;
+    width: 49%;
+    border: 1px solid #a9a9a9c2;
+
+    background-image:linear-gradient(0deg, #000000 20%, transparent 82%), url(https://www.xable.oxacor.com/wp-content/uploads/smartwatch-screen-mockup-digital-device-1024x683.jpg);
+    background-size:100% 100%;
+    transition: 1s;
+
+    
+}
+.d36:hover{
+    background-image: linear-gradient(0deg, #ec3737 -10%, transparent 52%),url(https://www.xable.oxacor.com/wp-content/uploads/smartwatch-screen-mockup-digital-device-1024x683.jpg);
+    border: 1px solid #EC3737;
+}
+
+.d37{
+    height: 100%;
+    width: 49%;
+    border: 1px solid #a9a9a9c2;
+
+    margin-left: 2%;
+    background-image:linear-gradient(0deg, #000000 20%, transparent 82%), url(https://www.xable.oxacor.com/wp-content/uploads/headphones-isolated-on-black-background--1024x723.jpg);
+    background-size:100% 100%;
+    transition: 2s;
+
+    
+}
+.d37:hover{
+    background-image: linear-gradient(0deg, #ec3737 -10%, transparent 52%),url(https://www.xable.oxacor.com/wp-content/uploads/headphones-isolated-on-black-background--1024x723.jpg);
+    border: 1px solid #EC3737;
+}
+.d31-1{
+    height: 95%;
+    width: 90%;
+    border: 1px solid transparent;
+    margin-top: 6%;
+    margin-left: 10%;
+    transition: 1s;
+
+}
+.d31-1 h2{
+    color: #ffffffc2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 480px;
+}
+.d31-1 span{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffffc2;
+}
+.d31-1:hover{
+    margin-top: -10px;
+}
+.d31-2{
+    height: 95%;
+    width: 90%;
+    border: 1px solid transparent;
+    margin-top: 6%;
+    margin-left: 10%;
+    transition: 1s;
+
+}
+.d31-2 h2{
+    color: #ffffffc2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 210px;
+}
+.d31-2 span{
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffffc2;
+}
+.d31-2:hover{
+    margin-top: -10px;
+}
+.d38{
+    height: 200px;
+    width: 83%;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.d38 h2{
+    font-size: 17px;
+    color: #ffffffc2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.d39{
+    height: 160px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+}
+.d40{
+    height: 100%;
+    width: 16.66%;
+}
+.d40 img{
+    width: 60%;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: 20px;
+    transition: 1s;
+    color: #ffffffc2;
+}
+.d40 img:hover{
+    transform: scale(1.1);
+    color: white;
+}
+footer{
+    height: 300px;
+    width: 83%;
+    margin-left: 150px;
+    margin-top: 50px;
+    display: flex;
+}
+.fo1{
+    height: 200px;
+    width: 25%;
+    border-bottom: 1px solid #ffffffc2;
+}
+.fo1 img{
+    height: 29.48px;
+    width: 110.19px;
+}
+.fo1 p{
+    color: #ffffffc2;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.f{
+    margin-left: 10px;
+    background-color: #15171E;
+    padding: 5px;
+    margin-top: 30px;
+}
+.fo1 h2{
+    color: white;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.fo1 span{
+    color: #ffffffc2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+    transition: 1s;
+}
+.fo1 span:hover{
+    color: white;
+    font-size: 16px;
+}
+.fo1 span i:hover{
+    color: #EC3737;
+}
+.fo1 input{
+    width: 300px;
+    height: 40px;
+    padding-left:10px ;
+    margin-top: 20px;
+    background-color: #15171E;
+    border: none;
+}
+.fo1 button{
+    padding: 6px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    background-color: #EC3737;
+    border: 1px solid #EC3737;
+    margin-top: 5px;
+    transition: 1s;
+}
+.fo1 button:hover{
+    background-color: transparent;
+}
+.p1{
+    color: #ffffffc2;
+    margin-top: -80px;
+}
+.p1 a{
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+}
